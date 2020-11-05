@@ -1,0 +1,31 @@
+@import './var.scss';
+@import './navbar';
+@import './sidebar';
+@import './home';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-main-layout {
+  position: relative;
+  min-height: 100vh;
+}
+
+.app-content {
+  height: 100vh;
+  padding-top: 54px;
+  padding-left: 50px;
+  transition: padding-left 0.3s;
+  position: relative;
+}
+
+.app-page {
+  height: 100%;
+}
+
+span {
+  cursor: pointer;
+}
